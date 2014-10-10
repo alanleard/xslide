@@ -1,0 +1,21 @@
+{
+	"global": {
+		"colors": {
+            "blue": "#184E7C",
+            "darkBlue": "#0E3B58",
+            "gray": "#CCCCCC",
+            "white": "#ffffff",
+            "black": "#000000"
+        }
+	}, 
+	"env:development": {}, 
+	"env:test": {}, 
+	"env:production": {}, 
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {
+		"com.appcelerator.xslide":"1.0"
+	}
+}

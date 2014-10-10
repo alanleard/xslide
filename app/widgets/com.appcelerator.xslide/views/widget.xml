@@ -1,0 +1,18 @@
+<Alloy>
+	<View>
+		<View id="info"/>
+		<View id="container">
+			<TableView id="menu" onClick="menuClick">
+				<TableViewRow id="header"/>
+			</TableView>
+			<View id="main">
+				<View id="nav">
+					<Label id="title"/>
+					<Label id="leftBtn" class="btn" onClick="menuOpen"/>
+					<Label id="rightBtn" class="btn" onClick="infoOpen"/>
+				</View>
+				<View id="content"/>
+			</View>
+		</View>
+	</View>
+</Alloy>

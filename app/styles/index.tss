@@ -1,0 +1,18 @@
+".container": {
+	backgroundColor:"white"
+}
+".container[platform=ios]": {
+	top:20,
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
